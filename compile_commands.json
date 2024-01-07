@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/sreepathyjayanand/Documents/code/modern_cpp-test",
+  "command": "/usr/bin/clang++    -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/main.dir/main.cpp.o -c /Users/sreepathyjayanand/Documents/code/modern_cpp-test/main.cpp",
+  "file": "/Users/sreepathyjayanand/Documents/code/modern_cpp-test/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+}
+]
