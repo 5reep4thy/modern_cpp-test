@@ -1,0 +1,57 @@
+Start testing: Jan 20 23:06 IST
+----------------------------------------------------------
+1/2 Testing: Topic.TestEquality
+1/2 Test: Topic.TestEquality
+Command: "/Users/sreepathyjayanand/Documents/code/modern_cpp-test/build/my_tests" "--gtest_filter=Topic.TestEquality" "--gtest_also_run_disabled_tests"
+Directory: /Users/sreepathyjayanand/Documents/code/modern_cpp-test/build
+"Topic.TestEquality" start time: Jan 20 23:06 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/sreepathyjayanand/Documents/code/modern_cpp-test/external/googletest/src/gtest_main.cc
+Note: Google Test filter = Topic.TestEquality
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Topic
+[ RUN      ] Topic.TestEquality
+[       OK ] Topic.TestEquality (0 ms)
+[----------] 1 test from Topic (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Topic.TestEquality" end time: Jan 20 23:06 IST
+"Topic.TestEquality" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: Topic.TestEquality2
+2/2 Test: Topic.TestEquality2
+Command: "/Users/sreepathyjayanand/Documents/code/modern_cpp-test/build/my_tests" "--gtest_filter=Topic.TestEquality2" "--gtest_also_run_disabled_tests"
+Directory: /Users/sreepathyjayanand/Documents/code/modern_cpp-test/build
+"Topic.TestEquality2" start time: Jan 20 23:06 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/sreepathyjayanand/Documents/code/modern_cpp-test/external/googletest/src/gtest_main.cc
+Note: Google Test filter = Topic.TestEquality2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Topic
+[ RUN      ] Topic.TestEquality2
+[       OK ] Topic.TestEquality2 (0 ms)
+[----------] 1 test from Topic (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Topic.TestEquality2" end time: Jan 20 23:06 IST
+"Topic.TestEquality2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 20 23:06 IST

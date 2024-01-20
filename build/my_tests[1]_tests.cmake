@@ -1,0 +1,5 @@
+add_test([=[Topic.TestEquality]=]  /Users/sreepathyjayanand/Documents/code/modern_cpp-test/build/my_tests [==[--gtest_filter=Topic.TestEquality]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Topic.TestEquality]=]  PROPERTIES WORKING_DIRECTORY /Users/sreepathyjayanand/Documents/code/modern_cpp-test/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Topic.TestEquality2]=]  /Users/sreepathyjayanand/Documents/code/modern_cpp-test/build/my_tests [==[--gtest_filter=Topic.TestEquality2]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Topic.TestEquality2]=]  PROPERTIES WORKING_DIRECTORY /Users/sreepathyjayanand/Documents/code/modern_cpp-test/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  my_tests_TESTS Topic.TestEquality Topic.TestEquality2)
