@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc liblibmodh.a CMakeFiles/libmodh.dir/mod_helper.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib liblibmodh.a

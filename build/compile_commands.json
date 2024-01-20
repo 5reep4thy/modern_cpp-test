@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/sreepathyjayanand/Documents/code/modern_cpp-test/build/includes",
+  "command": "/usr/bin/clang++   -std=gnu++17 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/libmodh.dir/mod_helper.cpp.o -c /Users/sreepathyjayanand/Documents/code/modern_cpp-test/includes/mod_helper.cpp",
+  "file": "/Users/sreepathyjayanand/Documents/code/modern_cpp-test/includes/mod_helper.cpp",
+  "output": "includes/CMakeFiles/libmodh.dir/mod_helper.cpp.o"
+}
+]

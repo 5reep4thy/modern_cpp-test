@@ -1,0 +1,6 @@
+/Users/sreepathyjayanand/Documents/code/modern_cpp-test/build/CMakeFiles/main.dir
+/Users/sreepathyjayanand/Documents/code/modern_cpp-test/build/CMakeFiles/edit_cache.dir
+/Users/sreepathyjayanand/Documents/code/modern_cpp-test/build/CMakeFiles/rebuild_cache.dir
+/Users/sreepathyjayanand/Documents/code/modern_cpp-test/build/includes/CMakeFiles/libmodh.dir
+/Users/sreepathyjayanand/Documents/code/modern_cpp-test/build/includes/CMakeFiles/edit_cache.dir
+/Users/sreepathyjayanand/Documents/code/modern_cpp-test/build/includes/CMakeFiles/rebuild_cache.dir
