@@ -19,6 +19,11 @@ class test_int_oo {
       x = in_obj.x;
       p = &x;
     }
+    test_int_oo& operator=(test_int_oo& in_obj) {
+      x = in_obj.x;
+      p = &x;
+      return *this;
+    }
     test_int_oo(test_int_oo&& in_obj) {
       std::cout << "Moving\n";
       this->x = in_obj.get_x();
@@ -59,19 +64,30 @@ void list_vecs(c2... args) {
   ...);
 }
 
-
-template<typename T>
+typedef class {
+  public:
+  typedef int x;
+  int y;
+} tc;
+// nested typename and template; not able to use it currently
+template<typename T, typename U1, typename U2, template<typename, typename> typename U>
 class tmp_test {
   typedef typename T::x in_x;
   in_x tx;
+  U<U1, U2> uu;
   public:
     void printtx() {
       std::cout << tx << "\n";
     }
 };
+
+template<typename t1, typename t2>
+class tmp_test_2 {
+};
+
 int main() {
+  using namespace std;
   {
-    using namespace std;
     // Type conversions - Using operator
     /* test_str_oo t("123"); */
     /* test_int_oo w = t; */
@@ -106,6 +122,13 @@ int main() {
 
     // variadic parameter pack
     /* list_vecs(1, 1.2, "hello world"); */ 
+
+    /* tc etc; */
+    // nested template usage; not working atm
+    /* tmp_test<tc, tc, tc, tmp_test_2<tc, tc>> tdest; */
+
+
+
 
 
 
