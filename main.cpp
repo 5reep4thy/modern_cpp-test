@@ -85,6 +85,12 @@ template<typename t1, typename t2>
 class tmp_test_2 {
 };
 
+template<typename t1, typename t2>
+void for_each_ele(t1& vec, t2 func) {
+  for (auto &i: vec)
+    func(i);
+}
+
 int main() {
   using namespace std;
   {
@@ -127,6 +133,10 @@ int main() {
     // nested template usage; not working atm
     /* tmp_test<tc, tc, tc, tmp_test_2<tc, tc>> tdest; */
 
+
+    // callback eg
+    /* vector<int> a {1, 2, 3, 4}; */
+    /* for_each_ele(a, [&] (int& a) {a++;}); */
 
 
 
