@@ -1,5 +1,16 @@
 #include<bits/stdc++.h>
 #include "mod_helper.cpp"
+struct nos2 {
+  int x, y;
+};
+union un {
+  struct {
+    int a, b, c, d;
+  };
+  struct {
+    nos2 e, f;
+  };
+};
 class test_int_oo {
   int x;
   int* p;
@@ -91,6 +102,10 @@ void for_each_ele(t1& vec, t2 func) {
     func(i);
 }
 
+void print2(nos2 p) {
+  cout << p.x << ", " << p.y << "\n";
+}
+
 int main() {
   using namespace std;
   {
@@ -138,6 +153,11 @@ int main() {
     /* vector<int> a {1, 2, 3, 4}; */
     /* for_each_ele(a, [&] (int& a) {a++;}); */
 
+    // Union Example
+    /* union un U {1, 2, 3, 4}; */
+    /* U.c = 500; */
+    /* print2(U.e); */
+    /* print2(U.f); */
 
 
 
