@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#include <variant>
 #include "mod_helper.cpp"
 struct nos2 {
   int x, y;
@@ -106,6 +107,18 @@ void print2(nos2 p) {
   cout << p.x << ", " << p.y << "\n";
 }
 
+// Function pointer and with typedef function pointer
+typedef int (*function_ptr_add_2_nos) (int x, int y);
+int add_2_nos (int x, int y) {return 1;};
+int call_add_2_nos(int x, int y) {
+  int (*f) (int, int);
+  function_ptr_add_2_nos ff;
+  f = add_2_nos;
+  ff = add_2_nos;
+  return f(x, y) + ff(x, y);
+
+}
+
 int main() {
   using namespace std;
   {
@@ -158,6 +171,17 @@ int main() {
     /* U.c = 500; */
     /* print2(U.e); */
     /* print2(U.f); */
+
+    // Variant Example
+    /* variant<int, char, bool> v; */
+    /* v = 12; */
+    /* cout << get<int>(v) << "\n"; */
+    /* v = 'A'; */
+    /* cout << get<char>(v) << "\n"; */
+
+    // Function pointer
+    int ans = add_2_nos(3, 4);
+
 
 
 
